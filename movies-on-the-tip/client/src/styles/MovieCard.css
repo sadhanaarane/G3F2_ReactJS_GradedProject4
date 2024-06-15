@@ -1,0 +1,31 @@
+.movie-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  margin: 1rem;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.movie-card h3 {
+  margin: 0.5rem 0;
+}
+
+.movie-card button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.movie-card button:hover {
+  background-color: #0056b3;
+}
